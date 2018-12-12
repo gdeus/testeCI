@@ -9,12 +9,16 @@ package testeci;
  *
  * @author gabri
  */
-public class TesteCI {
+public class TesteCI extends janelaCalculadora{
 
     /**
      * @param args the command line arguments
      */
+    
+    
     public static void main(String[] args) {
+        janelaCalculadora janela = new janelaCalculadora();
+        janela.setVisible(true);
         // TODO code application logic here
         System.out.println("Teste");
     }
